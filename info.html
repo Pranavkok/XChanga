@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Information</h1>
+        <div class="input-section">
+            <label for="country-label">Enter Country Name :</label>
+            <input type="text" id="country" placeholder="eg.India , Nepal ,Russia etc">
+            <button id="get-info-btn">Get Info   </button>
+        </div>
+
+        <div class="currency-info" id="currency-info">
+            <h2>Currency Details</h2>
+            <p><strong>Currency Name : </strong> <span id="currency-name">__________</span></p>
+            <p><strong>Country : </strong> <span id="country-name">__________</span></p>
+            <p><strong>Symbol : </strong> <span id="currency-symbol">__________</span></p>
+            <p><strong>Exchange Rate to USD : </strong> <span id="exchange-rate">__________</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
