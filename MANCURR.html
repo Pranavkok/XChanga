@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Currency Converter</h1>
+        <form>
+            <label for="amount">Enter the Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+        </form>
+        
+        <h2>Select the two currencies for the exchange rate</h2>
+        
+        <div class="currency-selection">
+            <div class="first" style="display: flex ;gap: none;">
+                <label for="from-currency" class="l">From :</label>
+                <div class="selcon">
+                    <img src="https://flagsapi.com/US/flat/64.png" />
+                    <select id="from-currency" name="from-currency" aria-placeholder="FROM">
+                        <optgroup label="Major Currencies">
+                       </optgroup>
+                    </select>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-right-left"></i></a>
+            <div class="first" style="display: flex ;gap: none;">
+                <label for="to-currency" class="l">To :</label>
+                <div class="selcon">
+                    <img src="https://flagsapi.com/IN/flat/64.png" />
+                    <select id="to-currency" name="to-currency" aria-placeholder="TO">
+                        <optgroup label="Major Currencies">
+                       </optgroup>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="convert-btn">
+            <button id="hghg">Get Exchange Rate</button>
+        </div>
+
+        <div class="currInfo">
+            <p><strong>Conversion Rate is : </strong> <span id="result">__________</span></p>
+        </div>
+    </div>
+    <script src="code.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
