@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #6A9C89;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid black;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+                /* BOX 1 */
+.icon{
+    height: 5.5rem;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    gap: 20px;
+}
+.icon i{
+    font-size: 50px;
+    font-weight: 700;
+}
+.icon p{
+    padding-left: 30px;
+    font-size: 60px;
+    font-weight: 300;
+}
+.menu{
+    height: 60px;
+    /* background-color: rgb(70, 33, 33); */
+    width: 60px;
+    padding-right: 80px;
+}
+.menu i{
+    align-items: end;
+    font-size: 50px;
+}
+
+.border{
+    border: none;
+}
+.border:hover{
+    border: 2px solid rgb(141, 199, 180);
+}
+.border2{
+    border: none;
+}
+.border2:hover{
+    border: 2px solid rgb(224, 171, 79);
+}
+
+                 /* BOX 2 */               
+
+.containerb{
+    height: 2.5rem;
+    background-color: #16423C;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 5px solid black;
+}
+.containerb a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+                --xx--   CONTENT BOX    --xx--
+
+.content{
+  
+    background-color: blue;
+}
+.content-container{
+    height: 900px;
+    background-color: rgba(185, 255, 148, 0.623);
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-containerA{
+    height: 100%;
+    width: 100%;
+    background-color:#C4DAD2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    gap: 20px;
+    /* background-image: url("https://apps.odoo.com/apps/icon_image?module_id=44005"); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+}
+.box-container {
+    position: relative; /* Add this */
+    border: 6px solid rgb(47, 48, 47);
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+    background-color: #FDFAD9;
+}
+.box-imgF{
+    padding-bottom: 20px;
+    height: 80%;
+    width: 100%;
+    background-image: url("https://img.freepik.com/premium-photo/3d-currency-exchange-illustration-concept-currency-exchange-cash-back-euro-icon-money-conversion-trendy-modern-vector-3d-style_839035-1751349.jpg");
+    background-size: cover;
+    border: 4px solid white;
+}
+.box-imgS{
+    padding-bottom: 20px;
+    height: 80%;
+    width: 100%;
+    background-image: url("https://img-cdn.pixlr.com/image-generator/history/66f7f63c572644a536b3d58f/c5999543-c574-4ab3-b6f3-ddf2820831ad/preview.webp");
+    background-size: cover;
+    border: 4px solid white;
+}
+.box-imgT{
+    padding-bottom: 20px;
+    height: 80%;
+    width: 100%;
+    background-image: url("https://img-cdn.pixlr.com/image-generator/history/66f7f6977f06b9bb51cd6293/41f218ec-5f9b-402e-bb8b-7151ceb505ab/preview.webp");
+    background-size: cover;
+    border: 4px solid white;
+}
+.box1 p{
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    gap: 20px;
+    padding-top: 30px;
+    color: #180d08;
+
+}
+.box-container i {
+    font-size: 36px;
+    position: absolute; /* Add this */
+    right: 20px; /* Adjust as needed */
+    top: 50%; /* To vertically center */
+    transform: translateY(-50%); /* Adjust for centering */
+}
+.special-border{
+    border: none;
+}
+.special-border:hover{
+    border: 3px solid #7d7b7d;
+    border-radius: 100%;
+    cursor: grab;
+}
+/* .bp-webchat {
+   background-color: aqua;
+   position: relative;
+   right: 10px;
+   bottom: 500px;
+} */
+
+.foot {
+    height: 8.5rem;
+    background-color: #16423C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: rgb(224, 171, 79);
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: aliceblue;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: rgb(224, 171, 79);
+}
+
+/* Transition and Animation Section */
+
+/* Smooth transition for hover effects */
+
+.border:hover {
+    border: 2px solid #16423C;
+    transition: border-color 3s ease;
+}
+
+.border2:hover {
+    border: 2px solid rgb(224, 171, 79);
+    transition: border-color 0.3s ease;
+}
+
+/* Animation for Box Containers on hover */
+
+.box-container i:hover {
+    transform: translateY(-50%) rotate(360deg);
+}
+
+.box-container:hover {
+    transition: transform 0.2s ease, box-shadow 0.4s ease;
+    transform: scale(1.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Fade-in effect on page load for content */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.content-container {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Hover animation for the right arrow */
+.special-border:hover {
+    border: 3px solid #7d7b7d;
+    border-radius: 100%;
+    cursor: grab;
+    transition: transform 0.6s ease;
+}
+
+
+
