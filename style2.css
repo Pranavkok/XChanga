@@ -1,0 +1,130 @@
+body {
+    height: 100vh;
+    background-color: rgb(217, 239, 255);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #d2e9ff;
+    height: 500px;
+    width: 900px;
+    /* margin: 180px auto; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0d47a1;
+}
+
+form {
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+input[type="number"] {
+    padding: 10px;
+    /* margin-top: 30px; */
+    font-size: 1rem;
+    border: 1px solid #6f6d6d;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: width 1s ease, margin-left 1s ease;
+}
+input:focus{
+    width: 60%;
+    margin-left: 5%;
+}
+.selcon{
+    display: flex;
+    flex-direction: column;
+}
+.selcon img{
+    max-width: 4rem;
+    padding-left: 80px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #2a2525;
+}
+
+.currency-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+}
+
+.currency-selection select {
+    height: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bdc8ff;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.currency-selection a {
+    font-size: 30px;
+    color: #001532;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.currency-btn:hover {
+    background-color: #4682b4;
+}
+.l{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#hghg {
+    background-color: #052f5f;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: .8px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#hghg:hover {
+    background-color: #b0ffe5;
+    color: #001532;
+}
+
+.convert-btn {
+    text-align: center;
+}
+
+.currInfo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 70px;
+}
